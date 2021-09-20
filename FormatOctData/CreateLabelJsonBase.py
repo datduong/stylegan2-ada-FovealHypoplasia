@@ -15,11 +15,11 @@ image_dir = os.path.join(main_dir,'FH_OCT_Images')
 
 
 # traincsv = 'FH_OCTs_label_train_input.csv'
-# testcsv = 'FH_OCTs_label_test_input.csv' # ! let's combine both 
+# testcsv = 'FH_OCTs_label_test_input.csv' # ! let's combine both train and test, we can filter out test images later
 # outjson = 'dataset_eyepos_FH.json'
 
 traincsv = 'FH_OCTs_label_train_input_driving.csv'
-testcsv = 'FH_OCTs_label_test_input_match_train_col_driving.csv' # ! let's combine both 
+testcsv = 'FH_OCTs_label_test_input_match_train_col_driving.csv' # ! let's combine both train and test, we can filter out test images later
 outjson = 'dataset_eyepos_driving.json'
 
 label_json = {}
