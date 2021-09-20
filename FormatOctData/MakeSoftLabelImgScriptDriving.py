@@ -69,7 +69,7 @@ os.chdir('/data/duongdb/stylegan2-ada-EyeOct')
 
 # ------------------------------------------------------------------------------------------
 
-name_option = '' # ! let's try with almost equal sample sizes
+name_option = '' # ! can put in your own name
 TRAINCSV = '/data/duongdb/FH_OCT_08172021/FH_OCTs_label_train_input_driving.csv'
 TRAINCSV = pd.read_csv ( TRAINCSV, dtype=str ) 
 
@@ -139,8 +139,6 @@ if not os.path.exists(rootout):
 
 MULTIPLY_BY = 1 # ! how many times we do style mix ?
 
-# GENDER=12 # ! 14 spots, so 12-->female 13-->male 
-
 fold_seed = {i : i*10000 for i in range(5)}
 
 label_pair_key = sorted(list(label_pair.keys()))
@@ -191,7 +189,7 @@ for fold in [0,1,2,3,4]: # ,2,3,4,5
     fout.write(newscript)
     fout.close()
     counter = counter + 1
-    time.sleep(2)
+    time.sleep(1)
     # break
     os.system('sbatch --partition=gpu --time=00:20:00 --gres=gpu:k80:1 --mem=6g --cpus-per-task=4 '+fname)
 
