@@ -21,9 +21,12 @@ Notable changes from the original Nvidia source are:
 
 We trained 5 GAN models (based on 5-fold cross-validation); [training scripts are in here](https://github.com/datduong/stylegan2-ada-FovealHypoplasia/tree/master/Experiment).
 
-Example images of transforming mild Foveal Hypoplasia cases into severe ones. 
+Below are two example images of transforming mild Foveal Hypoplasia cases into severe ones. 
 
 ![](https://github.com/datduong/stylegan2-ada-FovealHypoplasia/blob/master/Img/seed0002.png)
+
+![](https://github.com/datduong/stylegan2-ada-FovealHypoplasia/blob/master/Img/seed0011.png)
+
 
 ## (Original readme) StyleGAN2 with adaptive discriminator augmentation (ADA)<br>&mdash; Official TensorFlow implementation
 
