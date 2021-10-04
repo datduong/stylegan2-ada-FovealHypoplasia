@@ -25,7 +25,7 @@ Below are two examples of [transforming mild Foveal Hypoplasia cases into severe
 
 ![](https://github.com/datduong/stylegan2-ada-FovealHypoplasia/blob/master/Img/seed0002.png)
 
-![](https://github.com/datduong/stylegan2-ada-FovealHypoplasia/blob/master/Img/seed0011.png)
+![](https://github.com/datduong/stylegan2-ada-FovealHypoplasia/blob/master/Img/seed0015.png)
 
 
 ## (Original readme) StyleGAN2 with adaptive discriminator augmentation (ADA)<br>&mdash; Official TensorFlow implementation
