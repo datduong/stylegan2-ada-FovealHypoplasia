@@ -1,3 +1,19 @@
+## Foveal Hypoplasia
+
+**Paper coming soon ...**
+
+**Data will be uploaded soon ...** [how your dataset folder should look](https://asciinema.org/a/435740).
+
+**Pre-trained models will be uploaded soon ...**
+
+**[What is Foveal Hypoplasia?](https://en.wikipedia.org/wiki/Macular_hypoplasia)**
+
+
+### Train StyleGAN2-ada on Foveal Hypoplasia images. 
+
+This code exactly follows how the original StyleGAN2 formats and trains the data. I recommend that you read their original instruction (included below) for more detail. Here, we will show you the key steps needed to train on Foveal Hypoplasia (FH) images. [This code is part of another project where we classify FH images.](https://github.com/datduong/ClassifyFovealHypoplasia)
+
+
 ## StyleGAN2 with adaptive discriminator augmentation (ADA)<br>&mdash; Official TensorFlow implementation
 
 ![Teaser image](./docs/stylegan2-ada-teaser-1024x252.png)
