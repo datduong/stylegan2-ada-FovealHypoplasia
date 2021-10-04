@@ -64,7 +64,7 @@ for fold in [0,1,2,3,4]:
   fout.close()
   counter = counter + 1
   time.sleep(2)
-  os.system('sbatch --partition=gpu --time=6:00:00 --gres=gpu:p100:2 --mem=16g --cpus-per-task=20 '+fname)
+  # os.system('sbatch --partition=gpu --time=6:00:00 --gres=gpu:p100:2 --mem=16g --cpus-per-task=20 '+fname)
 
 
 

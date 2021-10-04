@@ -17,7 +17,7 @@ StyleGAN2 takes in images in tensorflow record, and we have already converted im
 
 Notable changes from the original Nvidia source are: 
 * [`dense_layer_split_label_emb`]() in `training/networks.py`. Here, we represent the label of an eye as 2 vectors: the disease label and eye position (left or right eye). Hence, we train a smaller number parameters and need fewer images. 
-* [`train_with_labels.py`](). The original code did not take in label, so we add extra argument inputs. 
+* [`train_with_labels.py`](). The original StyleGAN2 was not trained with labels, so we add extra argument inputs. 
 
 
 
