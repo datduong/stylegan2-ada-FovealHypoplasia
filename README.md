@@ -14,7 +14,7 @@
 This code exactly follows how the original StyleGAN2 formats and trains the data. I recommend that you read their original instruction (included below) for more detail. Here, we will show you the key steps needed to train on Foveal Hypoplasia (FH) images. [This code is part of another project where we classify FH images.](https://github.com/datduong/ClassifyFovealHypoplasia)
 
 
-## StyleGAN2 with adaptive discriminator augmentation (ADA)<br>&mdash; Official TensorFlow implementation
+## (Original readme) StyleGAN2 with adaptive discriminator augmentation (ADA)<br>&mdash; Official TensorFlow implementation
 
 ![Teaser image](./docs/stylegan2-ada-teaser-1024x252.png)
 
