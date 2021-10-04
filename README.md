@@ -16,10 +16,10 @@ This code exactly follows how the original StyleGAN2 formats and trains the data
 StyleGAN2 takes in images in tensorflow record, and we have already converted images into tensorflow record for you. 
 
 Notable changes from the original Nvidia source are: 
-* [`dense_layer_split_label_emb`]() in `training/networks.py`. Here, we represent the label of an eye as 2 vectors: the disease label and eye position (left or right eye). Hence, we train a smaller number parameters and need fewer images. 
-* [`train_with_labels.py`](). The original StyleGAN2 was not trained with labels, so we add extra argument inputs. 
+* [`dense_layer_split_label_emb`](https://github.com/datduong/stylegan2-ada-FovealHypoplasia/blob/master/training/networks.py#L64) in `training/networks.py`. Here, we represent the label of an eye as 2 vectors: the disease label and eye position (left or right eye). Hence, we train a smaller number parameters and need fewer images. 
+* [`train_with_labels.py`](https://github.com/datduong/stylegan2-ada-FovealHypoplasia/blob/master/train_with_labels.py). The original StyleGAN2 was not trained with labels, so we add extra argument inputs. 
 
-
+We trained 5 GAN models (based on 5-fold cross-validation); [training scripts are in here](https://github.com/datduong/stylegan2-ada-FovealHypoplasia/tree/master/Experiment).
 
 ## (Original readme) StyleGAN2 with adaptive discriminator augmentation (ADA)<br>&mdash; Official TensorFlow implementation
 
